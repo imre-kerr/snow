@@ -97,6 +97,9 @@ int main(int argc, char** argv){
 	glLoadIdentity();
 	glViewport(0, 0, WIN_SIZE, WIN_SIZE);
 	glOrtho(0, WIN_METERS, 0, WIN_METERS, 0, 1);
+
+	//OpenCL setup
+	CL_Init();
 	
 	//Drawing & event loop
 	//Create directory to save buffers in

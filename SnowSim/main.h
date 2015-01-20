@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define	MAIN_H
 
-#include "glfw3/glfw3.h"
+#include <GLFW/glfw3.h>
 #include "freeimage/FreeImage.h"
 #include <iostream>
 #include <stdlib.h>
@@ -16,6 +16,8 @@
 #include "Grid.h"
 #include "SimConstants.h"
 #include "Shape.h"
+#include <CL/cl.hpp>
+#include "CLHelpers.h"
 
 float TIMESTEP;
 

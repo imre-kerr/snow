@@ -5,6 +5,7 @@
 #include "SimConstants.h"
 #include "Particle.h"
 #include "Shape.h"
+#include "CLHelpers.h"
 
 #define AREA_EPSILON 1e-5
 
